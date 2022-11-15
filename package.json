@@ -1,0 +1,12 @@
+{
+  "name": "hola_mundo",
+  "version": "1.0.0",
+  "description": "Primera app Node Hola Mundo en Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["node", "db", "hola mundo" ],
+  "author": "Gabriel Bello",
+  "license": "ISC"
+}
