@@ -2,11 +2,23 @@
   "name": "hola_mundo",
   "version": "1.0.0",
   "description": "Primera app Node Hola Mundo en Backend",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["node", "db", "hola mundo" ],
+  "keywords": [
+    "node",
+    "db",
+    "hola mundo"
+  ],
   "author": "Gabriel Bello",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
